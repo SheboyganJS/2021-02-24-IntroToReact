@@ -1,0 +1,14 @@
+.Form-container {
+  width: 100%;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 2vh;
+  box-sizing: border-box;
+}
+
+.Form-input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: calc(12px + 2vmin);
+  text-align: center;
+}

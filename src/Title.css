@@ -1,0 +1,40 @@
+.Title-logo-container {
+  margin-top: 2vh;
+  height: 10vh;
+  width: 10vh;
+}
+
+.Title-logo {
+  height: 10vmin;
+  pointer-events: none;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Title-logo {
+    animation: Title-logo-spin infinite 20s linear;
+  }
+}
+
+.Title-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  color: white;
+}
+
+.Title-header-text {
+  display: inline-block;
+  margin: 2vh 5vh;
+  line-height: 10vh;
+  font-size: calc(16px + 2vmin);
+}
+
+@keyframes Title-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
