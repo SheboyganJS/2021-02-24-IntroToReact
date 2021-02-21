@@ -1,4 +1,11 @@
 # Into To React!
+## SheboyganJS
+[Meetup Group](https://www.meetup.com/Sheboygan-JavaScript-Meetup-Group)
+
+## Slides
+[Get the slides here](https://docs.google.com/presentation/d/1f0FiCOowiXujrIAp_-MKSzEZQumlVwHZI7vXa-bAh_U/edit?usp=sharing)
+
+# 
 
 # Getting Started with Create React App
 

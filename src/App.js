@@ -8,6 +8,11 @@ const App = () => {
   const [todos, setTodos] = React.useState([]);
   const addTodo = aTodo => { setTodos([aTodo, ...todos]) };
   const removeTodo = aTodo => { setTodos(todos.filter(todo => todo !== aTodo)) };
+
+  React.useEffect(() => {
+    document.title = `You Have ${todos.length} todos!`;
+  });
+
   return (
     <main>
       <Title></Title>
